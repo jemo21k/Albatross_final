@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Albatross</string>
+    <string name="title_text">main.albatross</string>
+    <string name="Get_started_text">Get started</string>
+    <string name="title_activity_add_device">Add_device</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="first_name">First Name</string>
+    <string name="Username">Username</string>
+    <string name="name">"First Name "</string>
+    <string name="name2">Last Name</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="repeatpassword">"Repeat password "</string>
+    <string name="title_activity_loged_in">LogedIn</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="connect_nest">Connect Nest</string>
+    <string name="nest_location_66_249_79_61">Nest Location: 66.249.79.61</string>
+    <string name="nest_id_ifx40jfyt90tay">Nest ID: ifX40jFyt90Tay</string>
+</resources>

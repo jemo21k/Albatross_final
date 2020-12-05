@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    tools:context=".add_device">
+
+    <ProgressBar
+        android:id="@+id/create_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    
+    <LinearLayout
+        android:id="@+id/details_Login_form"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <AutoCompleteTextView
+            android:id="@+id/Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/first_name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <AutoCompleteTextView
+            android:id="@+id/Name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/name2"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <AutoCompleteTextView
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/password"
+            android:inputType="numberPassword"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/repeatpassword"
+            android:inputType="numberPassword"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/phone"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+
+            android:id="@+id/uploadphoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/averia_serif_libre_bold"
+            android:gravity="center"
+            android:text="@string/connect_nest"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:backgroundTint="#F1950E" />
+
+        <Button
+
+            android:id="@+id/connect_device"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/averia_serif_libre_bold"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            app:backgroundTint="#F1950E"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

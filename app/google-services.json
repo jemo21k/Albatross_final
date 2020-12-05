@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "945778685659",
+    "firebase_url": "https://albatross-d1620-default-rtdb.firebaseio.com",
+    "project_id": "albatross-d1620",
+    "storage_bucket": "albatross-d1620.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945778685659:android:ca51f2d8941bc5860bbefe",
+        "android_client_info": {
+          "package_name": "com.example.albatross"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945778685659-ojl070o0ejkolsal18iama0sg2boj8oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuDIf0Q5a_8zpERUc5VmFqE2bjvhIm2bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945778685659-ojl070o0ejkolsal18iama0sg2boj8oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945778685659:android:246966d064f486860bbefe",
+        "android_client_info": {
+          "package_name": "com.example.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945778685659-ojl070o0ejkolsal18iama0sg2boj8oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuDIf0Q5a_8zpERUc5VmFqE2bjvhIm2bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945778685659-ojl070o0ejkolsal18iama0sg2boj8oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
